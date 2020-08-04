@@ -24,6 +24,6 @@ Linear& random forest model,Residual analysis result, Performance of both models
 step2 - Data exploration, Optimal model verification and confirmation
 }
 \examples{
-step2(pss3.1  , pss3.2 , pss3.2$throw_Distance~. , pss3.2$throw_Distance~. ,pss3.2$throw_Distance)
+step2(pss2.2  , pss2.3 , pss2.2$throw_Distance~. , pss2.3$throw_Distance~. ,pss2.3$throw_Distance)
 If there is no test set, put the training set in the test set field
 }

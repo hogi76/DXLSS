@@ -2,7 +2,7 @@
 #'
 #' @param x : i-mr control chart data (individual data)
 #' @return : i-mr control chart
-#' @examples  poststep1(pss5$throw_Distance)
+#' @examples  poststep1(pss4$throw_Distance)
 
 
 poststep1=function(x){
@@ -19,7 +19,7 @@ poststep1=function(x){
 #'
 #' @param x : Xbar-R control chart data (subgroub size=4~5)
 #' @return : Xbar-R control chart
-#' @examples  poststep2(pss6)
+#' @examples  poststep2(pss5)
 
 
 poststep2=function(x){

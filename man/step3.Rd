@@ -16,5 +16,5 @@ Range, mean of dataset feature, Empty data frame
 step3 - Finding optimal conditions
 }
 \examples{
-step3(pss3)
+step3(pss2.1)
 }

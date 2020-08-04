@@ -16,5 +16,5 @@ poststep1(x)
 poststep1 - Control chart for post management (I-MR)
 }
 \examples{
- poststep1(pss5$throw_Distance)
+ poststep1(pss4$throw_Distance)
 }

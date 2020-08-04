@@ -16,5 +16,5 @@ trainset & testset
 prestep3 - Dividing the dataset into test and verification sets
 }
 \examples{
-prestep3(pss3)
+prestep3(pss2)
 }

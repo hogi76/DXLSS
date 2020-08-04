@@ -45,7 +45,7 @@ prestep2=function(x,y){
 #' @param x dataset
 #' @return trainset & testset
 #' @examples
-#' prestep3(pss3)
+#' prestep3(pss2)
 
 
 prestep3=function(x){

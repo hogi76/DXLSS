@@ -16,5 +16,5 @@ poststep2(x)
 poststep2 - Control chart for post management (Xbar-R)
 }
 \examples{
- poststep2(pss6)
+ poststep2(pss5)
 }

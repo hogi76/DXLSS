@@ -26,7 +26,7 @@ step1=function(xST,xLT=NA,LSL=NA,USL=NA,Target=NA){
 #' @param y3 : y value of test data( y )
 #' @return Linear& random forest model,Residual analysis result, Performance of both models
 #' @examples
-#' step2(pss3.1  , pss3.2 , pss3.2$throw_Distance~. , pss3.2$throw_Distance~. ,pss3.2$throw_Distance)
+#' step2(pss2.2  , pss2.3 , pss2.2$throw_Distance~. , pss2.3$throw_Distance~. ,pss2.3$throw_Distance)
 #' If there is no test set, put the training set in the test set field
 
 
@@ -54,7 +54,7 @@ step2=function(x_train,x_test,y1,y2,y3){
 #' @param x: dataset
 #' @return Range, mean of dataset feature, Empty data frame
 #' @examples
-#' step3(pss3)
+#' step3(pss2.1)
 
 
 
@@ -80,7 +80,7 @@ step3=function(x){
 #' @param y3 : y value of NewX( y )
 #' @return
 #' @examples  optimal results
-#' step4(pss3.1  , pss3.2[1,] , pss3.2$throw_Distance~. , pss3.2$throw_Distance~. ,pss3.2$throw_Distance[1,])
+#' step4(pss2.2  , pss2.3[1,] , pss2.3$throw_Distance~. , pss2.3$throw_Distance~. ,pss2.3$throw_Distance[1,])
 #' If there is no test set, put the training set in the test set field
 #' Enter the news example name and value in data.frame parentheses
 #' newx=data.frame(throw_Distance=128, Rope_elasticity=3,Pulling_level=49, catapult_weight=46, catapult_Height=38, Throw_angle=48)
