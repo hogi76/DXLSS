@@ -94,5 +94,5 @@ step4=function(x_train,x_test,y1,y2,y3){
   x_test=as.data.frame(x_test)
   pred.lm=predict(lm.fit,newdata=x_test)
   pred.rf=predict(rf.fit,newdata=x_test)
-  return(list("Optimal predicted value"=pred.lm,"Optimal predicted value"=pred.rf))
+  return(list("Optimal predicted value of lm"=pred.lm,"Optimal predicted value of randomForest"=pred.rf))
 }

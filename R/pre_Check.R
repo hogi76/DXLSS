@@ -6,12 +6,15 @@
 
 
 pre_check=function(){
-  RequiredPackages = c('qcc','SixSigma','randomForest','devtools')
-  for (i in RequiredPackages) { #Installs packages if not yet installed
-    if(! i%in% row.names(installed.packages())) install.packages(i)
+  RequiredPackages = c("qcc", "SixSigma", "randomForest")
+  for (i in RequiredPackages) {
+    if (!i %in% row.names(installed.packages())) install.packages(i)
   }
-  library('qcc')
-  library('SixSigma')
-  library('randomForest')
-  library('devtools')
+  library("qcc")
+  library("SixSigma")
+  library("randomForest")
+  return(list(getwd(),dir()))
 }
+
+
+
