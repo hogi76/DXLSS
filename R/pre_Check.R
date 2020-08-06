@@ -13,7 +13,7 @@ pre_check=function(){
   library("qcc")
   library("SixSigma")
   library("randomForest")
-  return(list(getwd(),dir()))
+  return(list('Working folder'=getwd(),'Files in the working folder'=dir()))
 }
 
 
