@@ -1,9 +1,10 @@
 ## code to prepare `DATASET` dataset goes here
-dir()
 
-pss5 = read.csv("PSS2_rawdata5.csv")
+library(dplyr);library(tidyr)
+
+
 usethis::use_data(DATASET, overwrite = TRUE)
-usethis::use_data(pss1, compress='xz')
+usethis::use_data(pss5, compress='xz')
 
 
 
