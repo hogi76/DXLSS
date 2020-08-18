@@ -18,5 +18,5 @@ Data structure, Number of missing values, Outliers of data
 prestep1 - Check the pre-treatment level
 }
 \examples{
-prestep1(pss1,y)
+prestep1(pss1,pss1$Firing_range)
 }

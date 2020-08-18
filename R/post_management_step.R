@@ -2,7 +2,7 @@
 #'
 #' @param x : i-mr control chart data (individual data)
 #' @return : i-mr control chart
-#' @examples  poststep1(pss4$throw_Distance)
+#' @examples  poststep1(pss4$Firing_range)
 
 
 poststep1=function(x){
