@@ -25,8 +25,8 @@ step4 - Finding optimal results using  optimal conditions
 }
 \examples{
  optimal results
-step4(pss2.2  , pss2.3[1,] , pss2.3$throw_Distance~. , pss2.3$throw_Distance~. ,pss2.3$throw_Distance[1,])
+step4(pss2.2  , pss2.3 , pss2.2$Firing_range~. , pss2.3$Firing_range~. ,pss2.3$Firing_range)
 If there is no test set, put the training set in the test set field
 Enter the news example name and value in data.frame parentheses
-newx=data.frame(throw_Distance=128, Rope_elasticity=3,Pulling_level=49, catapult_weight=46, catapult_Height=38, Throw_angle=48)
+newx=data.frame(Firing_range=128, Number_of_ropes=3,Torsion_powered=49, catapult_weight=46, Catapult_armlength=38, Stopper_angle=48)
 }

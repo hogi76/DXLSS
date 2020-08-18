@@ -18,5 +18,5 @@ Returns x dataset excluding missing and outlier values of y
 prestep2 - Run preprocessing
 }
 \examples{
-prestep2(pss1,y)
+prestep2(pss1,pss1$Firing_range)
 }

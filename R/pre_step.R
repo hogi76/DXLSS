@@ -4,7 +4,7 @@
 #' @param y y_values of dataset
 #' @return Data structure, Number of missing values, Outliers of data
 #' @examples
-#' prestep1(pss1,y)
+#' prestep1(pss1,pss1$Firing_range)
 
 
 
@@ -25,7 +25,7 @@ prestep1=function(x,y){
 #' @param y y_values of dataset
 #' @return Returns x dataset excluding missing and outlier values of y
 #' @examples
-#' prestep2(pss1,y)
+#' prestep2(pss1,pss1$Firing_range)
 
 
 prestep2=function (x, y){

@@ -61,9 +61,7 @@ step2=function(x_train,x_test,y1,y2,y3){
 step3=function(x){
   x1 =apply(x,2,range)
   x2 =apply(x,2,mean)
-  newx_example=head(x,1)
-  newx_example[,1:ncol(newx_example)]=0
-  return(list(range=x1,mean=x2,newx_example)) #checking the optimum conditions
+  return(list(range=x1,mean=x2)) #checking the optimum conditions
 }
 
 
@@ -80,10 +78,10 @@ step3=function(x){
 #' @param y3 : y value of NewX( y )
 #' @return
 #' @examples  optimal results
-#' step4(pss2.2  , pss2.3[1,] , pss2.3$throw_Distance~. , pss2.3$throw_Distance~. ,pss2.3$throw_Distance[1,])
+#' step4(pss2.2  , pss2.3 , pss2.2$Firing_range~. , pss2.3$Firing_range~. ,pss2.3$Firing_range)
 #' If there is no test set, put the training set in the test set field
 #' Enter the news example name and value in data.frame parentheses
-#' newx=data.frame(throw_Distance=128, Rope_elasticity=3,Pulling_level=49, catapult_weight=46, catapult_Height=38, Throw_angle=48)
+#' newx=data.frame(Firing_range=128, Number_of_ropes=3,Torsion_powered=49, catapult_weight=46, Catapult_armlength=38, Stopper_angle=48)
 
 
 
